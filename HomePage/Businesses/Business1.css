@@ -1,5 +1,5 @@
 *{
-    font-family: oswald;
+    font-family: poppins;
 }
 
 body{
@@ -31,6 +31,18 @@ li{
     padding: 40px;
 }
 
+.home :hover{
+    color: green;
+}
+
+.charity :hover{
+    color: red;
+}
+
+.career :hover{
+    color: black;
+}
+
 /* This removes the hyperlink line from under any link on the website */
 a{
     text-decoration: none;
@@ -49,4 +61,6 @@ nav{
     flex: 1;
     text-align: right;
 }
+
+
 /* End Navigation bar*/

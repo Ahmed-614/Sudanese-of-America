@@ -1,5 +1,10 @@
 *{
-    font-family: oswald;
+    font-family: poppins;
+}
+
+/* This removes the hyperlink line from under any link on the website */
+a{
+    text-decoration: none;
 }
 
 body{
@@ -31,10 +36,18 @@ li{
     padding: 40px;
 }
 
-/* This removes the hyperlink line from under any link on the website */
-a{
-    text-decoration: none;
+.home :hover{
+    color: green;
 }
+
+.charity :hover{
+    color: red;
+}
+
+.business :hover{
+    color: black;
+}
+
 
 nav{
     display: flex;

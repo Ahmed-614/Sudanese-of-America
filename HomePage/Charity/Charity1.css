@@ -1,5 +1,5 @@
 *{
-    font-family: oswald;
+    font-family: poppins;
 }
 
 body{
@@ -29,6 +29,18 @@ li{
     margin-left: auto;
     list-style: none;
     padding: 40px;
+}
+
+.home :hover{
+    color: green;
+}
+
+.career :hover{
+    color: red;
+}
+
+.business :hover{
+    color: black;
 }
 
 /* This removes the hyperlink line from under any link on the website */
