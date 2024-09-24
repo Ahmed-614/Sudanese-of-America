@@ -9,13 +9,14 @@ a{
 
 body{
     background-color: rgb(255, 255, 255);
-    font-family: oswald;
+    font-family: poppins;
 }
 
 h1{
     font-size: 60px;
     font-style: bold;
-    padding-left:40px
+    padding-left:40px;
+    text-align: center;
 }
 
 p{
@@ -63,3 +64,19 @@ nav{
     text-align: right;
 }
 /* End Navigation bar*/
+
+.images{
+    border: 1px;
+    border-color: black;
+    border-radius: 40%;
+    border-style: dashed;
+    background-color: black;
+    align-items: center;
+    display: flex;
+}
+
+img{
+    align-items: center;
+    display: flex;
+}
+

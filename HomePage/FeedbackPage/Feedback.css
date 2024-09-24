@@ -48,41 +48,6 @@ nav{
     text-align: right;
 }
 
-/*.nav-links li:after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #ce36f4;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}*/
-
-
-
 /* End Navigation bar*/
 
 
-p{
-    font-size: 30px;
-    border-radius: 20px;
-    padding-left:40px
-}
-
-.p1{
-        background-color: #e2f0fa;
-        border: solid;
-        border-width: 1px;
-        border-color: black;
-        margin-left: 50px;
-        margin-right: 50px;
-        height: auto;
-        width: auto;
-        display: flexbox;
-}
-
-button{
-    font-size: 30px;
-    border: none;
-    background-color: rgb(66, 52, 52);
-}
