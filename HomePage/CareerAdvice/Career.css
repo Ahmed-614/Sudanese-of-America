@@ -1,5 +1,5 @@
 *{
-    font-family: poppins;
+    font-family: Poppins;
 }
 
 /* This removes the hyperlink line from under any link on the website */
@@ -65,18 +65,30 @@ nav{
 }
 /* End Navigation bar*/
 
-.images{
+
+/* Start of Gallery */
+
+.gallery{
+    display: inline-block;
     border: 1px;
-    border-color: black;
-    border-radius: 40%;
-    border-style: dashed;
-    background-color: black;
+    margin: 5px;
+    width: 400px;
     align-items: center;
-    display: flex;
+    font-size: 20px;
 }
 
-img{
-    align-items: center;
-    display: flex;
+.gallery .description{
+    padding: 10px;
+    text-align: center;
 }
 
+.gallery:hover{
+    border: 1px solid black;
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+}
+
+/* End of Gallery */
